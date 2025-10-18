@@ -1,0 +1,68 @@
+/* Skills section styling */
+.skills {
+  padding: 4rem 2rem; /* Space around content */
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* White text */
+  min-height: 100vh; /* Take full screen height */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+  justify-content: center; /* Center vertically */
+}
+
+/* Skills title */
+.skillsTitle {
+  font-size: 2.5rem; /* Large font size */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 3rem; /* Space below title */
+  color: #ffffff; /* White color */
+  text-align: center; /* Center text */
+}
+
+/* Skills grid container */
+.skillsGrid {
+  display: grid; /* Use CSS Grid */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+  gap: 2rem; /* Space between grid items */
+  max-width: 1000px; /* Limit width */
+  width: 100%; /* Full width */
+}
+
+/* Individual skill card */
+.skillCard {
+  background-color: #333333; /* Dark gray background */
+  padding: 2rem; /* Space inside card */
+  border-radius: 15px; /* Rounded corners */
+  text-align: center; /* Center text */
+  transition: all 0.3s ease; /* Smooth animation */
+  border: 1px solid #555555; /* Subtle border */
+}
+
+/* What happens when you hover over skill cards */
+.skillCard:hover {
+  background-color: #444444; /* Lighter gray on hover */
+  transform: translateY(-5px); /* Move up slightly */
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Add shadow */
+}
+
+/* Skill icon */
+.skillIcon {
+  font-size: 3rem; /* Large icon size */
+  margin-bottom: 1rem; /* Space below icon */
+  color: #4a90e2; /* Blue color for icons */
+}
+
+/* Skill name */
+.skillName {
+  font-size: 1.2rem; /* Medium font size */
+  font-weight: 600; /* Semi-bold text */
+  margin-bottom: 1rem; /* Space below name */
+  color: #ffffff; /* White color */
+}
+
+/* Skill description */
+.skillDescription {
+  font-size: 0.9rem; /* Small font size */
+  color: #cccccc; /* Light gray color */
+  line-height: 1.6; /* Space between lines */
+}

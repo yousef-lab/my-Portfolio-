@@ -1,41 +1,43 @@
+/* Navigation bar - the bottom menu */
 .navbar {
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        background-color: #64a1fc; 
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        width: 260px;
-        padding: 10px 15px;
-        border-radius: 40px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-      }
-      
-      .icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #9ca3af;
-        background-color: transparent;
-        width: 38px;
-        height: 38px;
-        border-radius: 50%;
-        transition: all 0.3s ease;
-      }
-      
-      
-      .icon:hover {
-        color: #fff;
-      }
-      
-      
-      .active {
-        transform: scale(1.1);
-        transition: all 0.2s ease;
-      }
-      .active {
-        background-color: #3b82f6; 
-        color: #fff;
-      }
+  position: fixed; /* Stay in place when scrolling */
+  bottom: 20px; /* 20px from bottom of screen */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Perfect center alignment */
+  background-color: #333333; /* Dark gray background to match theme */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Space icons evenly */
+  align-items: center; /* Center icons vertically */
+  width: 260px; /* Fixed width */
+  padding: 10px 15px; /* Space inside navbar */
+  border-radius: 40px; /* Very rounded corners */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* Individual navigation icons */
+.icon {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  color: #cccccc; /* Light gray color for inactive icons */
+  background-color: transparent; /* No background by default */
+  width: 38px; /* Fixed width */
+  height: 38px; /* Fixed height */
+  border-radius: 50%; /* Make it circular */
+  transition: all 0.3s ease; /* Smooth animation */
+  cursor: pointer; /* Show it's clickable */
+}
+
+/* What happens when you hover over icons */
+.icon:hover {
+  color: #ffffff; /* White color on hover */
+  background-color: #555555; /* Light gray background on hover */
+}
+
+/* Active/selected icon styling */
+.active {
+  background-color: #4a90e2; /* Blue background for active icon */
+  color: #ffffff; /* White color for active icon */
+  transform: scale(1.1); /* Make it slightly bigger */
+  transition: all 0.2s ease; /* Smooth animation */
+}

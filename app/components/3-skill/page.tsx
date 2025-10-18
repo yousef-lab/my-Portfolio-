@@ -1,3 +1,4 @@
+import styles from "/skill/.module/css"
 
 export default function Skill() {
   return (

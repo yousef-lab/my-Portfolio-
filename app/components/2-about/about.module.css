@@ -1,0 +1,59 @@
+/* About section styling */
+.about {
+  padding: 4rem 2rem; /* Space around content */
+  background-color: #1a1a1a; /* Dark background */
+  color: #ffffff; /* White text */
+  min-height: 100vh; /* Take full screen height */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+  justify-content: center; /* Center vertically */
+}
+
+/* About title */
+.aboutTitle {
+  font-size: 2.5rem; /* Large font size */
+  font-weight: 700; /* Bold text */
+  margin-bottom: 2rem; /* Space below title */
+  color: #ffffff; /* White color */
+  text-align: center; /* Center text */
+}
+
+/* About content container */
+.aboutContent {
+  max-width: 800px; /* Limit width for readability */
+  text-align: center; /* Center text */
+  line-height: 1.8; /* Space between lines */
+}
+
+/* About text paragraphs */
+.aboutText {
+  font-size: 1.1rem; /* Medium font size */
+  color: #cccccc; /* Light gray color */
+  margin-bottom: 1.5rem; /* Space below each paragraph */
+}
+
+/* Skills section */
+.skills {
+  margin-top: 3rem; /* Space above skills */
+  display: flex; /* Use flexbox */
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center; /* Center items */
+  gap: 1rem; /* Space between skill items */
+}
+
+/* Individual skill item */
+.skillItem {
+  background-color: #333333; /* Dark gray background */
+  color: #ffffff; /* White text */
+  padding: 0.8rem 1.5rem; /* Space inside */
+  border-radius: 25px; /* Rounded corners */
+  font-size: 0.9rem; /* Small font size */
+  transition: all 0.3s ease; /* Smooth animation */
+}
+
+/* What happens when you hover over skill items */
+.skillItem:hover {
+  background-color: #4a90e2; /* Blue background on hover */
+  transform: translateY(-2px); /* Move up slightly */
+}
