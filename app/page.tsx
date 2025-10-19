@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "./components/1-navbar/navbar";
-import { Section, Github } from "lucide-react";
+import { Section, Github, Citrus  } from "lucide-react";
 import clsx from "clsx";
 import About from "./components/2-about/page";
 
@@ -18,6 +18,14 @@ export default function Home() {
         </p>
 
         <div className={styles.icons}>
+          <a
+            href="https://github.com/yousef-lab"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.iconButton}
+          >
+            <Github size={24}/>
+          </a>
           <a
             href="https://github.com/yousef-lab"
             target="_blank"
@@ -44,8 +52,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-
-
 
     </section>
   );

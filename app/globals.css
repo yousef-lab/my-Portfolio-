@@ -1,13 +1,11 @@
-/* Global styles for the entire website */
 body {
-  background-color: #1a1a1a; /* Dark background */
-  color: #ffffff; /* White text */
-  font-family: Arial, sans-serif; /* Simple font */
-  margin: 0; /* Remove default margins */
-  padding: 0; /* Remove default padding */
+  background-color: #1a1a1a; 
+  color: #ffffff; 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
 }
 
-/* Make sure all text is readable */
 * {
-  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  box-sizing: border-box; 
 }

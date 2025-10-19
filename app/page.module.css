@@ -1,120 +1,108 @@
-/* Main hero section - the big welcome area */
 .hero {
-  display: flex; /* Use flexbox for layout */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
-  min-height: 100vh; /* Take full screen height */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  min-height: 100vh; 
   background: linear-gradient(
       to bottom,
-      rgba(26, 26, 26, 0.9), /* Dark background with transparency */
+      rgba(26, 26, 26, 0.9), 
       rgba(26, 26, 26, 0.95)
     );
-  text-align: center; /* Center all text */
-  color: #ffffff; /* White text */
-  padding: 2rem; /* Add space around content */
+  text-align: center; 
+  color: #ffffff; 
+  padding: 2rem; 
 }
 
-/* Container for the main content */
+
 .content {
-  max-width: 800px; /* Limit width for better readability */
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items */
+  max-width: 800px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
-/* Main title styling */
 .title {
-  font-size: 2.8rem; /* Large font size */
-  font-weight: 700; /* Bold text */
-  margin-bottom: 1rem; /* Space below title */
-  color: #ffffff; /* White color */
+  font-size: 2.8rem; 
+  font-weight: 700; 
+  margin-bottom: 1rem; 
+  color: #ffffff; 
 }
 
-/* Subtitle styling */
 .subtitle {
-  font-size: 1.2rem; /* Medium font size */
-  line-height: 1.8; /* Space between lines */
-  margin-bottom: 2rem; /* Space below subtitle */
-  color: #cccccc; /* Light gray color */
+  font-size: 1.2rem; 
+  line-height: 1.8; 
+  margin-bottom: 2rem; 
+  color: #cccccc; 
 }
 
-/* Container for social media icons */
 .icons {
-  display: flex; /* Use flexbox */
-  gap: 1rem; /* Space between icons */
-  margin-bottom: 2rem; /* Space below icons */
+  display: flex; 
+  gap: 1rem; 
+  margin-bottom: 2rem; 
 }
 
-/* Social media icon buttons */
 .iconButton {
-  display: flex; /* Use flexbox */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  background-color: #333333; /* Dark gray background */
-  color: white; /* White icon color */
-  font-size: 1.5rem; /* Large icon size */
-  width: 50px; /* Fixed width */
-  height: 50px; /* Fixed height */
-  border-radius: 50%; /* Make it circular */
-  transition: all 0.3s ease; /* Smooth animation */
-  cursor: pointer; /* Show it's clickable */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  background-color: #333333; 
+  color: white; 
+  font-size: 1.5rem; 
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%; 
+  transition: all 0.3s ease; 
+  cursor: pointer; 
 }
 
-/* What happens when you hover over icon buttons */
 .iconButton:hover {
-  background-color: #4a90e2; /* Blue background on hover */
-  transform: translateY(-4px); /* Move up slightly */
+  background-color: #4a90e2; 
+  transform: translateY(-4px); 
 }
 
-/* Container for action buttons */
 .buttons {
-  display: flex; /* Use flexbox */
-  gap: 1rem; /* Space between buttons */
-  flex-wrap: wrap; /* Allow buttons to wrap to new line */
+  display: flex; 
+  gap: 1rem; 
+  flex-wrap: wrap; 
 }
 
-/* Basic button styling */
 .btn {
-  padding: 0.8rem 1.6rem; /* Space inside button */
-  font-size: 1rem; /* Normal font size */
-  cursor: pointer; /* Show it's clickable */
-  border-radius: 8px; /* Rounded corners */
-  transition: all 0.3s ease; /* Smooth animation */
-  text-decoration: none; /* Remove underline from links */
-  display: inline-flex; /* Use flexbox */
-  align-items: center; /* Center vertically */
-  justify-content: center; /* Center horizontally */
-  border: 1px solid transparent; /* Invisible border */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Subtle shadow */
+  padding: 0.8rem 1.6rem; 
+  font-size: 1rem; 
+  cursor: pointer; 
+  border-radius: 8px; 
+  transition: all 0.3s ease; 
+  text-decoration: none; 
+  display: inline-flex; 
+  align-items: center; 
+  justify-content: center; 
+  border: 1px solid transparent; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
 }
 
-/* Dark button style */
 .btnHoverOnly {
-  background-color: #333333; /* Dark gray background */
-  color: #ffffff; /* White text */
-  border: 1px solid #333333; /* Dark gray border */
+  background-color: #333333; 
+  color: #ffffff; 
+  border: 1px solid #333333; 
 }
 
-/* What happens when you hover over dark buttons */
+
 .btnHoverOnly:hover {
-  background-color: #4a90e2; /* Blue background on hover */
-  color: #ffffff; /* Keep white text */
-  border: 1px solid #4a90e2; /* Blue border on hover */
-  transform: translateY(-3px); /* Move up slightly */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Bigger shadow */
+  background-color: #4a90e2; 
+  color: #ffffff; 
+  border: 1px solid #4a90e2; 
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2); 
 }
 
-/* Blue button style */
 .btnPrimaryHover {
-  background-color: #4a90e2; /* Blue background */
-  color: #ffffff; /* White text */
-  border: 1px solid #4a90e2; /* Blue border */
+  background-color: #4a90e2; 
+  color: #ffffff; 
+  border: 1px solid #4a90e2; 
 }
 
-/* What happens when you hover over blue buttons */
 .btnPrimaryHover:hover {
-  background-color: #5ba0f2; /* Lighter blue on hover */
-  transform: translateY(-3px); /* Move up slightly */
-  box-shadow: 0 6px 12px rgba(0,0,0,0.2); /* Bigger shadow */
+  background-color: #5ba0f2; 
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2); 
 }
-
